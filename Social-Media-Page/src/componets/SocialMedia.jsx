@@ -1,4 +1,4 @@
-import { WhatsAppIcon, FacebookIcon, InstagramIcon, LinkedInIcon, YoutubeIcon, RedSocialXIcon} from './Imports.jsx';
+import { WhatsAppIcon,TikTokIcon, FacebookIcon, InstagramIcon, LinkedInIcon, YoutubeIcon, RedSocialXIcon,} from './Imports.jsx';
 
 const SocialMedia = [
   {
@@ -13,7 +13,7 @@ const SocialMedia = [
   },
   {
     name: "TikTok",
-    icon: <YoutubeIcon />,
+    icon: <TikTokIcon />,
     link: "https://www.tiktok.com/@lexpinonline",
   },
   {
