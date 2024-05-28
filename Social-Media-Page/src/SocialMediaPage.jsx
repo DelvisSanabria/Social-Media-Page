@@ -13,7 +13,7 @@ function SocialMediaPage() {
               nuestras redes sociales:
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {SocialMedia.map((SocialNetwork) => (
               <a
                 className="flex flex-col items-center justify-center space-y-2 rounded-lg bg-white p-4 transition-colors hover:bg-gray-50 dark:bg-gray-950 dark:hover:bg-gray-800 shadow-md hover:shadow-lg"
